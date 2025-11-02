@@ -1,6 +1,6 @@
 NAME=gpt
 CXX=c++
-CXX_FLAGS= -std=c++17 -Ivendor/httplib -Ivendor/nlohmann/include -lcrypto -lssl
+CXX_FLAGS= -std=c++17 -Ivendor/nlohmann/
 SRC= $(wildcard *.cpp)
 OBJ= $(SRC:.cpp=.o)
 
